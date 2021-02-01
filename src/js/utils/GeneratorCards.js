@@ -8,7 +8,7 @@ const GeneratorCards = obj => {
   </div>
   <div class="description">
     <div class="div div1">
-      <h2>${obj.name.toUpperCase()}</h2>
+      <h2>${obj.name.toLowerCase()}</h2>
       <div><span class="${obj.status.toLowerCase()}"></span> <span>${obj.status} - ${obj.species}</span></div>
       <p>${obj.gender}</p>
     </div>

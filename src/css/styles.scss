@@ -78,6 +78,9 @@ body {
   gap: 4px;
 }
 .div1 {
+  h2{
+    text-transform: capitalize;
+  }
   span {
     color: rgba($color: #fff, $alpha: 0.7);
   }
