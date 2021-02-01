@@ -1,0 +1,3 @@
+- hacer en el main de la pagina una descripcion de la pagina y que metodos se estan usando para hacer la pagina, ademas de que la descripcion tiene que tener un fondo negro con opacidad de 0.7.
+- hacer un filter para poder buscar por nombre a los personajes de la serie.
+- al darle a la carta de algun personaje te tiene que abrir un modal con toda su informacion(al menos toda la que da la api.) y un boton para poder copiar esa informacion en formato json.

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(36, 40, 47);
+}
+.main {
+  background-image: url("../assets/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card {
+  background: rgb(60, 62, 68);
+  color: rgba($color: #fff, $alpha: 0.7);
+  display: flex;
+  gap: 20px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 5px;
+  span {
+    color: rgb(124, 123, 123);
+  }
+}
+.img_container {
+  width: 60%;
+  height: 100%;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.alive {
+  display: flex;
+  background: green;
+  align-items: center;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.dead {
+  display: flex;
+  background-color: #970505;
+  align-items: center;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.unknown {
+  display: flex;
+  background: rgb(104, 104, 104);
+  align-items: center;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.div1 {
+  span {
+    color: rgba($color: #fff, $alpha: 0.7);
+  }
+  div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+#card-container {
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+}

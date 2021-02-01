@@ -1,0 +1,11 @@
+{
+  "name": "pagewithapirickandmorty",
+  "version": "1.0.0",
+  "description": "page using Rick and morty API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/js/utils/fetchData.js"
+  },
+  "author": "Heger Arias Santos",
+  "license": "ISC"
+}
